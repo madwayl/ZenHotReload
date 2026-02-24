@@ -1,11 +1,11 @@
 {
-  "id": "ZenHotReload",
+  "id": "zenhotreload",
   "name": "Zen Hot Reload",
   "description": "Reloads scripts without restarting",
   "homepage": "https://github.com/madwayl/ZenHotReload",
   "readme": "https://raw.githubusercontent.com/madwayl/ZenHotReload/refs/heads/main/README.md",
   "scripts": {
-    "JS/ZenHotReload.uc.js": {
+    "ZenHotReload.uc.js": {
       "include": [
         "chrome://browser/content/browser.xhtml"
       ]
