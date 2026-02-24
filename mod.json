@@ -1,10 +1,18 @@
 {
   "id": "ZenHotReload",
+  "homepage": "https://github.com/madwayl/ZenHotReload",
   "author": "madwayl",
   "name": "Zen Hot Reload",
-  "version": "0.1.0",
   "description": "Reloads scripts without restarting",
-  "homepageURL": "https://github.com/madwayl/ZenHotReload",
-  "scripts": ["JS/ZenHotReload.uc.js"],
+  "version": "0.1.0",
+  "scripts": {
+    "JS/ZenHotReload.uc.js": {
+      "name": "Hot Reload Script",
+      "description": "Reloads scripts without restarting",
+      "include": [
+        "chrome://browser/content/browser.xhtml"
+      ]
+    }
+  },
   "tags": ["script", "utility"]
 }
