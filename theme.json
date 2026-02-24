@@ -1,0 +1,24 @@
+{
+  "id": "ZenHotReload",
+  "name": "Zen Hot Reload",
+  "description": "Reloads scripts without restarting",
+  "homepage": "https://github.com/madwayl/ZenHotReload",
+  "readme": "https://raw.githubusercontent.com/madwayl/ZenHotReload/refs/heads/main/README.md",
+  "scripts": {
+    "JS/ZenHotReload.uc.js": {
+      "include": [
+        "chrome://browser/content/browser.xhtml"
+      ]
+    }
+  },
+  "author": "madwayl",
+  "version": "0.1.0",
+  "tags": [
+    "sine",
+    "fx-autoconfig",
+    "utility"
+  ],
+  "createdAt": "2025-02-24",
+  "updatedAt": "2025-02-24",
+  "fork": ["zen"]
+}
