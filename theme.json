@@ -3,10 +3,6 @@
   "author": "somebody",
   "name": "ZenHotReload",
   "version": "3.3.3",
-  "style": {
-    "chrome": "userChrome.css",
-    "content": "userContent.css"
-  },
   "scripts": {
     "JS/ZenHotReload.uc.js": {
       "name": "Core script",
