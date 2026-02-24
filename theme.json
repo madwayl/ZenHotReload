@@ -1,0 +1,19 @@
+{
+  "id": "ZenHotReload",
+  "author": "somebody",
+  "name": "ZenHotReload",
+  "version": "3.3.3",
+  "style": {
+    "chrome": "userChrome.css",
+    "content": "userContent.css"
+  },
+  "scripts": {
+    "JS/ZenHotReload.uc.js": {
+      "name": "Core script",
+      "description": "Central script for Zen Browser Hot Reload.",
+      "include": ["chrome://browser/content/browser.xhtml"]
+    }
+  },
+  "tags": ["content", "chrome", "minimal"],
+  "fork": ["zen"]
+}
