@@ -10,6 +10,5 @@
       "include": ["chrome://browser/content/browser.xhtml"]
     }
   },
-  "tags": ["content", "chrome", "minimal"],
-  "fork": ["zen"]
+  "tags": ["content", "chrome", "minimal"]
 }
