@@ -1,0 +1,13 @@
+{
+  "id": "ZenHotReload",
+  "author": "YourName",
+  "name": "Zen Hot Reload",
+  "version": "0.1.0",
+  "scripts": {
+    "JS/ZenHotReload.uc.js": {
+      "name": "Hot Reload Script",
+      "description": "Reloads scripts without restarting"
+    }
+  },
+  "tags": ["script", "utility"]
+}
